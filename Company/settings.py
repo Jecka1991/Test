@@ -38,6 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'api',
+    'django_filters',
+    'crispy_forms',
+    'django_seed',
+    'django_admin_relation_links',
+    'knox',
 ]
 
 MIDDLEWARE = [
