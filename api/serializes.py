@@ -2,7 +2,7 @@ from rest_framework import serializers
 from django.contrib.auth.models import User
 
 
-from api.models import Worker
+from .models import Worker
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -29,5 +29,5 @@ class WorkerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Worker
         fields = ('first_name', 'middle_name', 'last_name',
-                  'position', 'work_date', 'salary', 'total_salary_paid',
+                  'position', 'worker_date', 'salary', 'salary_paid',
                   'big_boss_id', 'company_level')

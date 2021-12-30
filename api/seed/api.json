@@ -1,0 +1,402 @@
+[
+{
+    "model": "firm_api.companylevels",
+    "pk": 21,
+    "fields": {
+        "level": "Manager important."
+    }
+},
+{
+    "model": "firm_api.companylevels",
+    "pk": 22,
+    "fields": {
+        "level": "Change build prove."
+    }
+},
+{
+    "model": "firm_api.companylevels",
+    "pk": 23,
+    "fields": {
+        "level": "Admit national none."
+    }
+},
+{
+    "model": "firm_api.companylevels",
+    "pk": 24,
+    "fields": {
+        "level": "Voice successful."
+    }
+},
+{
+    "model": "firm_api.companylevels",
+    "pk": 25,
+    "fields": {
+        "level": "These room less."
+    }
+},
+{
+    "model": "firm_api.boss",
+    "pk": 231,
+    "fields": {
+        "boss_id": 353,
+        "name": "Joseph",
+        "surname": "Kramer"
+    }
+},
+{
+    "model": "firm_api.boss",
+    "pk": 232,
+    "fields": {
+        "boss_id": 530,
+        "name": "Lisa",
+        "surname": "Beck"
+    }
+},
+{
+    "model": "firm_api.boss",
+    "pk": 233,
+    "fields": {
+        "boss_id": 624,
+        "name": "Samantha",
+        "surname": "Meadows"
+    }
+},
+{
+    "model": "firm_api.boss",
+    "pk": 234,
+    "fields": {
+        "boss_id": 627,
+        "name": "Kimberly",
+        "surname": "Sanchez"
+    }
+},
+{
+    "model": "firm_api.boss",
+    "pk": 235,
+    "fields": {
+        "boss_id": 559,
+        "name": "Debra",
+        "surname": "Martinez"
+    }
+},
+{
+    "model": "firm_api.boss",
+    "pk": 236,
+    "fields": {
+        "boss_id": 212,
+        "name": "Stephanie",
+        "surname": "Delacruz"
+    }
+},
+{
+    "model": "firm_api.boss",
+    "pk": 237,
+    "fields": {
+        "boss_id": 420,
+        "name": "Julie",
+        "surname": "Jenkins"
+    }
+},
+{
+    "model": "firm_api.boss",
+    "pk": 238,
+    "fields": {
+        "boss_id": 593,
+        "name": "Philip",
+        "surname": "Wong"
+    }
+},
+{
+    "model": "firm_api.boss",
+    "pk": 239,
+    "fields": {
+        "boss_id": 583,
+        "name": "Calvin",
+        "surname": "Weeks"
+    }
+},
+{
+    "model": "firm_api.boss",
+    "pk": 240,
+    "fields": {
+        "boss_id": 99,
+        "name": "Victoria",
+        "surname": "Long"
+    }
+},
+{
+    "model": "firm_api.boss",
+    "pk": 241,
+    "fields": {
+        "boss_id": 621,
+        "name": "Amy",
+        "surname": "Quinn"
+    }
+},
+{
+    "model": "firm_api.boss",
+    "pk": 242,
+    "fields": {
+        "boss_id": 114,
+        "name": "Brian",
+        "surname": "Conrad"
+    }
+},
+{
+    "model": "firm_api.boss",
+    "pk": 243,
+    "fields": {
+        "boss_id": 803,
+        "name": "Jennifer",
+        "surname": "May"
+    }
+},
+{
+    "model": "firm_api.boss",
+    "pk": 244,
+    "fields": {
+        "boss_id": 610,
+        "name": "Megan",
+        "surname": "Jones"
+    }
+},
+{
+    "model": "firm_api.boss",
+    "pk": 245,
+    "fields": {
+        "boss_id": 53,
+        "name": "Stacey",
+        "surname": "Hale"
+    }
+},
+{
+    "model": "firm_api.position",
+    "pk": 233,
+    "fields": {
+        "position": "Statistician"
+    }
+},
+{
+    "model": "firm_api.position",
+    "pk": 234,
+    "fields": {
+        "position": "Architect"
+    }
+},
+{
+    "model": "firm_api.position",
+    "pk": 235,
+    "fields": {
+        "position": "Designer, jewellery"
+    }
+},
+{
+    "model": "firm_api.position",
+    "pk": 236,
+    "fields": {
+        "position": "Embryologist, clinic"
+    }
+},
+{
+    "model": "firm_api.position",
+    "pk": 237,
+    "fields": {
+        "position": "Chartered certified "
+    }
+},
+{
+    "model": "firm_api.position",
+    "pk": 238,
+    "fields": {
+        "position": "Exhibition designer"
+    }
+},
+{
+    "model": "firm_api.position",
+    "pk": 239,
+    "fields": {
+        "position": "Nurse, learning disa"
+    }
+},
+{
+    "model": "firm_api.position",
+    "pk": 240,
+    "fields": {
+        "position": "Designer, multimedia"
+    }
+},
+{
+    "model": "firm_api.position",
+    "pk": 241,
+    "fields": {
+        "position": "Wellsite geologist"
+    }
+},
+{
+    "model": "firm_api.position",
+    "pk": 242,
+    "fields": {
+        "position": "Sports development o"
+    }
+},
+{
+    "model": "firm_api.employee",
+    "pk": 6,
+    "fields": {
+        "user": 182,
+        "first_name": "Patrick",
+        "middle_name": "Alice",
+        "last_name": "Williams",
+        "position": 233,
+        "work_date": "2020-12-20",
+        "salary": 746,
+        "salary_paid": 155861,
+        "boss_id": 243,
+        "company_level": 23
+    }
+},
+{
+    "model": "firm_api.worker",
+    "pk": 7,
+    "fields": {
+        "user": 180,
+        "first_name": "Ian",
+        "middle_name": "Thomas",
+        "last_name": "Irwin",
+        "position": 238,
+        "work_date": "2020-12-03",
+        "salary": 320,
+        "salary_paid": 176560,
+        "boss_id": 241,
+        "company_level": 25
+    }
+},
+{
+    "model": "firm_api.worker",
+    "pk": 8,
+    "fields": {
+        "user": 184,
+        "first_name": "Jesse",
+        "middle_name": "Christine",
+        "last_name": "Fields",
+        "position": 241,
+        "work_date": "2020-12-15",
+        "salary": 552,
+        "salary_paid": 3903,
+        "boss_id": 242,
+        "company_level": 21
+    }
+},
+{
+    "model": "firm_api.worker",
+    "pk": 9,
+    "fields": {
+        "user": 184,
+        "first_name": "Crystal",
+        "middle_name": "Micheal",
+        "last_name": "Thomas",
+        "position": 236,
+        "work_date": "2020-12-01",
+        "salary": 71,
+        "salary_paid": 158020,
+        "boss_id": 243,
+        "company_level": 25
+    }
+},
+{
+    "model": "firm_api.worker",
+    "pk": 10,
+    "fields": {
+        "user": 178,
+        "first_name": "James",
+        "middle_name": "Jessica",
+        "last_name": "Marquez",
+        "position": 239,
+        "work_date": "2020-12-19",
+        "salary": 847,
+        "salary_paid": 145620,
+        "boss_id": 242,
+        "company_level": 24
+    }
+},
+{
+    "model": "firm_api.worker",
+    "pk": 11,
+    "fields": {
+        "user": 181,
+        "first_name": "Katrina",
+        "middle_name": "Cody",
+        "last_name": "Lozano",
+        "position": 236,
+        "work_date": "2020-12-14",
+        "salary": 407,
+        "salary_paid": 88357,
+        "boss_id": 243,
+        "company_level": 21
+    }
+},
+{
+    "model": "firm_api.worker",
+    "pk": 12,
+    "fields": {
+        "user": 182,
+        "first_name": "Justin",
+        "middle_name": "Olivia",
+        "last_name": "Patton",
+        "position": 237,
+        "work_date": "2020-12-07",
+        "salary": 589,
+        "salary_paid": 54516,
+        "boss_id": 245,
+        "company_level": 23
+    }
+},
+{
+    "model": "firm_api.worker",
+    "pk": 13,
+    "fields": {
+        "user": 181,
+        "first_name": "Eddie",
+        "middle_name": "Brittany",
+        "last_name": "Barnett",
+        "position": 240,
+        "work_date": "2020-12-19",
+        "salary": 979,
+        "salary_paid": 0,
+        "boss_id": 243,
+        "company_level": 24
+    }
+},
+{
+    "model": "firm_api.worker",
+    "pk": 14,
+    "fields": {
+        "user": 178,
+        "first_name": "Joy",
+        "middle_name": "Michael",
+        "last_name": "Wright",
+        "position": 238,
+        "work_date": "2020-12-07",
+        "salary": 586,
+        "salary_paid": 31395,
+        "boss_id": 243,
+        "company_level": 25
+    }
+},
+{
+    "model": "firm_api.worker",
+    "pk": 15,
+    "fields": {
+        "user": 179,
+        "first_name": "Barbara",
+        "middle_name": "Jason",
+        "last_name": "Hoffman",
+        "position": 239,
+        "work_date": "2020-12-08",
+        "salary": 19,
+        "salary_paid": 113886,
+        "boss_id": 242,
+        "company_level": 24
+    }
+}
+]
